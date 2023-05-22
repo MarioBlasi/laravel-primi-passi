@@ -31,7 +31,7 @@
        
     </head>
     <body >
-     <header class="d-flex justify-content-center pt-3 bg-info">
+     <header class="d-flex justify-content-center pt-3 bg-info rounded mt-5">
         <a href="{{ route('home') }}">Home &nbsp</a>
         <a href="{{ route('about') }}">About &nbsp</a>
         <a href="{{ route('info') }}">Info &nbsp</a>
@@ -41,11 +41,11 @@
     <main>
     <div class="container">
       <div class="row">
-        <div class="col p-3">
-          <h1 class="shadow my-5 d-flex justify-content-center">
+        <div class="col p-3 ">
+          <h1 class="shadow my-5 d-flex justify-content-center rounded h-50">
               {{$page_title}}
           </h1>
-          <p class="shadow my-5 d-flex justify-content-center">
+          <p class="shadow my-5 d-flex justify-content-center rounded ">
               {{$subtitle}} 
           </p>
         </div>
