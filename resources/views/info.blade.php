@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header class="d-flex justify-content-center pt-3 bg-primary info">
+  <header class="d-flex justify-content-center pt-3 bg-black info">
         <a href="{{ route('home') }}">Home &nbsp</a>
         <a href="{{ route('about') }}">About &nbsp</a>
         <a href="{{ route('info') }}">Info &nbsp</a>
